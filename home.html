@@ -1,0 +1,452 @@
+<html>
+    <head>
+        <title>Home page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                    box-sizing:border-box;
+                    margin: 0%;
+                }
+                .header{
+                    background-color: black;
+                    width: 1366px;
+                    height: 45px;
+                    margin: 0px;
+                    padding: 0%;
+                    display: flex;
+                }
+                .icon1{
+                    
+                    font-size: 1rem;
+                    margin-left: 30px;
+                display: flex;
+                padding: 15px;
+                color: white;
+                }
+                .header1{
+                    color: white;
+                    padding: 1px;
+                    margin-left: 10px;
+                    font-weight: bolder;
+                }
+                .header2{
+                    margin-left: 45px;
+                    font-size: larger;
+                }
+                .header3{
+                    font-weight: bolder;
+                    margin-left: 10px;
+                }
+                .header4{
+                    
+                    font-size:x-large ;
+                    padding: 0px;
+                    margin-left: 800px;
+                }
+                .header5{
+                    margin-left: 10px;
+                    font-size: x-large;
+                }
+                .header6{
+                    margin-left: 10px;
+                    font-size: x-large;
+                }
+                .header7{
+                    margin-left: 10px;
+                    font-size: x-large;
+                }
+                .middle{
+                    display: flex;
+                    height: 150px;
+                    background-color: #f8f7f7;
+                    align-items: center;
+                }
+                .middle1{
+                    padding: 15px;
+                    margin-left: 100px;
+
+                    
+                }
+                .navbar{
+                    margin-left: 350px;
+                    
+                    font-weight: bolder;
+                    padding: 10px;
+                    font-size: large;
+                    color: black;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .navbar a{
+                    text-decoration: none;
+                    color: #fcb040;
+                }
+                .navbar a:hover{
+                    text-shadow: orangered;
+                    
+                    
+                }
+                .lower{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bolder;
+                    color: black;
+                    padding-top: 5%;
+                    padding-bottom: 5%;
+                    text-align: center;
+                    font-size: x-large;
+                    
+                }
+                
+                
+                .figure1{
+                    display: flex;
+                    height: 100px;
+                    margin-left: 150px;
+                }
+                
+
+                
+                .text1{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .figure2{
+                    height: 20px;
+                    margin-left: 30px;
+                    
+
+                }
+                .text2{
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                .figure3{
+                    margin-left: 30px;
+                }   
+                .text3{
+                    font-family: Arial, Helvetica, sans-serif;
+                } 
+                .container1{
+                        text-align: center;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-top: 60px;
+                        padding-bottom: 80px;
+                    }
+                    .container2{
+                        padding-top: 70px;
+                        padding-left: 150px;
+                        position: absolute;
+                        box-shadow: 5px 10px 8px 10px #888888;
+                        margin-left: 50px;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        padding-top: 0px;
+                        padding-bottom: 200px;
+                    }
+                    .container3{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bolder;
+                        font-size: x-large;
+                        text-align: center;
+                        width: 300px;
+                    }    
+                    .container4{
+                        text-align: justify;
+                        width: 250;
+                        font-size: larger;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: gray;
+                        clear: both;
+                       
+                    }
+                      .container5{
+                        
+                        box-shadow: 5px 10px 8px 10px #888888;
+                        margin-left: 450px;
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        padding-top: 0px;
+                        padding-bottom: 68px;
+                        width: 300px;
+                        
+                        
+                    }  
+                    .container6{
+                        text-align: center;
+                        
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bolder;
+                        font-size: x-large;
+                    }
+                    .container7{
+                        width: 250px;
+                        text-align: justify;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: gray;
+                        font-size: larger;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                    }
+                    .btn1{
+                        border-radius: 4px;
+                        background-color:orangered;
+                        border: none;
+                        color: #FFFFFF;
+                        text-align: center;
+                        width: 200px;
+                        transition-duration:0.4s ;
+                        cursor: pointer;
+                        display: inline-block;
+                        font-size: small;
+                        padding: 20px;
+                        width: 200px;
+                        margin: 5px;
+                        margin-left: 600px;
+                        margin-top: 70px;
+                    }   
+                    .button1{
+                        background-color: orangered; 
+                        color: black; 
+                        border: 2px solid orangered;
+                    }
+                    
+                    .button1:hover {
+                     background-color: white;
+                     color: orangered;  
+                    }  
+                    .container0{
+                        display: flex;
+                        margin-left: 80px;
+                        
+                    }
+                    .container8{
+                        padding-left: 0px;
+                        box-shadow: 5px 10px 8px 10px #888888;
+                        padding-bottom: 96px;
+                        left: 0px;
+                        margin-left: 60px;
+                    }
+                    .container9{
+                        text-align: center;
+                        width: 150;
+                        font-size: x-large;
+                        padding-left: 70px;
+                        
+                        font-family: Arial, Helvetica, sans-serif;
+                        
+                        font-weight: bolder;
+                       
+                    }    
+                    .container10{
+                        text-align: justify;
+                        width: 250px;
+                        font-size: large;
+                        padding-left: 20px;
+                        padding-top: 20px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: gray;
+                    }
+                    .sec-8{
+                        display: flex;
+                        position: relative;
+                    }
+                    .lower1{
+                        height: 444px;
+                        background-color: #356c6f;
+                        position: relative;
+                    }
+                    .lower2{
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                        font-weight: bolder;
+                        
+                        padding-left: 150px;
+                        padding-top: 150px;
+                    }
+                    .e1{
+                        position: absolute;
+                        padding-left: 800px;
+                        padding-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                    .lower3{
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: white;
+                        font-size: large;
+                        padding-left: 0px;
+                        padding-top: 20px;
+
+                    }
+                    .btn2{
+                        border-radius: 4px;
+                        background-color:orangered;
+                        border: none;
+                        color: #FFFFFF;
+                        text-align: center;
+                        width: 200px;
+                        transition-duration:0.4s ;
+                        cursor: pointer;
+                        display: inline-block;
+                        font-size: small;
+                        padding: 20px;
+                        width: 200px;
+                        margin: 5px;
+                        margin-left: 0px;
+                        margin-top: 30px;
+                        
+                    }
+                    .button2{
+                         background-color: orangered; 
+                         color: white; 
+                         border: 2px solid orangered;
+                         font-weight: bolder;
+                   
+                    }
+                    .button2:hover{
+                        background-color: white;
+                        color: orangered;  
+                    
+                    }
+                    .figure6{
+                        
+                        height: 284px;
+                        width: 403px;
+                        
+                    }
+                    .lower4{
+                        font-weight: bolder;
+                        font-size: xx-large;
+                        color: black;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-top: 40px;
+                        text-align: center;
+                    }
+                    .lower5{
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-align: center;
+                        width: 1000px;
+                        text-align: justify;
+                        padding-left: 250px;
+                        padding-top: 40px;
+                        font-size: large;
+                        line-height: 2;
+                    }
+                    
+                    
+                    
+               
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class ="icon1">
+                <i class="fa-solid fa-phone"></i>
+                <div class="header1">
+                    +91 7021733916
+                </div>
+                <div class="header2">
+                    <i class="fa-regular fa-envelope"></i>
+
+                </div>
+                <div class="header3">
+                    info@dvov.in
+
+                </div>
+                <div class="header4">
+                    <i class="fa-brands fa-square-facebook" style="color: #075ef2;"></i>
+
+                </div>
+                <div class="header5">
+                    <i class="fa-brands fa-instagram" style="color: #e4071d;"></i>
+
+                </div>
+                <div class="header6">
+                    <i class="fa-brands fa-twitter" style="color: #0457e7;"></i>
+                    
+
+                    </div>
+                    <div class="header7">
+                        <i class="fa-brands fa-linkedin" style="color: #043995;"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            <div class="middle">
+                <div class="middle1">
+                    <img src="logo.jpg" width="150px">
+                </div>
+                
+                <div class="navbar">
+                    <a href="home.html">Home</a>&nbsp&nbsp&nbsp
+                    <a href="https://www.dvoc.in/events/">our events</a>&nbsp&nbsp&nbsp
+                    <a href="aboutus.html">About Us</a>
+                    <i class="fa-sharp fa-solid fa-caret-down fa-beat-fade fa-2xs"></i>&nbsp&nbsp&nbsp
+                    <a href="contactus.html">Contact Us</a>
+    
+                    
+                        
+                        
+                    
+                    
+    
+                    </div>
+    
+                    
+                    
+                </div>
+            
+            </div>
+            <div class="middle-back">
+                <div class="lower">Our Highlights</div>
+                <div class="figure1"><img src="faculty1.jpg"> 
+                <div class="text1"><h3>Expert Faculty</h3>
+                <p>Get guidance from our expert faculty</p>
+                </div>
+                <div class="figure2"><img src="faculty2.jpg" height="500%"></div>
+                <div class="text2"><h3>Relevant Skills training</h3>
+                <p>with industry level skills to get job ready </p>
+                </div>
+                <div class="figure3"><img src="faculty3.jpg" height="100%"></div>
+                <div class="text3"><h3>DVOC Certificate</h3>
+                <p>Get certified by completing DVOC Programs</p>
+                </div>
+                </div>
+                <div class="container1"><h2>Popular Courses</h2> </div>
+            <div class="container0">
+            <div class="container2"><img src="faculty4.jpg">
+            <div class="container3">Advanced Program in Full Stack Software development</div>
+            <div class="container4">
+                <p>
+                    This programme will enable you to develop both the front end and back end of a website or an application.
+                </p>
+            </div>
+            </div>
+            <div class="container5"><img src="accounting-300x200.jpg.webp">
+            <div class="container6">Advanced Program in FinTech and Business Analytics</div>
+            <div class="container7">This programme is a dual qualification 7-term plan designed for students with little or no prior knowledge of fintech & business analytics. It covers the essential aspects of financial technologies along with training in data analysis tools.</div>
+        </div>
+        <div class="container8">
+            <img src="figure5.jpg">
+            <div class="container9">Foundation in Information Technology</div>
+            <div class="container10">Our Professional Program in Data Analytics aims to teach you the core principles of data analysis and how to apply these in the real world. Our course will equip you with the technical and practical skills required to become a data analyst.</div>
+        </div>     
+        </div>
+        <button class=" btn1 button1"> View all courses</button>
+        <div class="lower1">
+            <div class="sec-8">
+        <div class="lower2"><h1>Get your certificate</h1>
+        <div class="lower3">Get certified by completing Dvoc Programs</div>
+        <button class=" btn2 button2"> Get yours Now</button>
+    </div>
+    <div class="e1"><img src="certno1-copy.png.webp" height="450px" width="450px"></div>
+    </div>
+    </div>
+    <div class="lower4">Why to choose Us?</div>
+    <div class="lower5">focus on delivering practical knowledge, as it is the key to a successful digital world career. With our skill-enhancing courses, students can learn the latest technologies that will help them to grow beyond primary education and learn some real-life skills. DVOC will help the schools, colleges, and universities establish vocational programs to help their students be employable for the Industry.</div>
+
+        
+            
+            
+    </body>
+</html>
